@@ -1205,6 +1205,7 @@ img {
 
 .navbar.navbar-dark .navbar-nav .nav-link {
   color: var(--white-color);
+  font-size: 30px;
 }
 
 @media (max-width: 991px) {
@@ -2950,7 +2951,14 @@ img {
   transition: all 0.3s ease 0s;
 }
 
-.navbar-sticky-on .btn {
+.navbar-sticky-on .header-btn {
   background: orange !important;
   color: white !important;
+}
+
+.header-btn {
+
+  color: orange;
+  background: white;
+  font-size: 25px;
 }
